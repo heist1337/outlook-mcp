@@ -1,0 +1,4 @@
+betterleaksMinVersion = "1.7.3"
+
+[extend]
+useDefault = true

@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+*.egg-info/
+
+.env.*
+!.env.example
+.local/
+.state/
+data/
+credentials*.json
+*.pem
+*.key

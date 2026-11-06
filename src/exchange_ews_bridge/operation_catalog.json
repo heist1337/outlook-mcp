@@ -1,0 +1,391 @@
+{
+  "source": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/ews-operations-in-exchange",
+  "checked_at": "2026-10-02",
+  "scope": "Operations linked by the official EWS catalogue; availability is version- and permission-dependent. Autodiscover is separate.",
+  "operations": [
+    {
+      "operation": "GetDiscoverySearchConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getdiscoverysearchconfiguration-operation"
+    },
+    {
+      "operation": "GetHoldOnMailboxes",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getholdonmailboxes-operation"
+    },
+    {
+      "operation": "GetNonIndexableItemDetails",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getnonindexableitemdetails-operation"
+    },
+    {
+      "operation": "GetNonIndexableItemStatistics",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getnonindexableitemstatistics-operation"
+    },
+    {
+      "operation": "GetSearchableMailboxes",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation"
+    },
+    {
+      "operation": "SearchMailboxes",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/searchmailboxes-operation"
+    },
+    {
+      "operation": "SetHoldOnMailboxes",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/setholdonmailboxes-operation"
+    },
+    {
+      "operation": "ArchiveItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/archiveitem-operation"
+    },
+    {
+      "operation": "CreateItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createitem-operation"
+    },
+    {
+      "operation": "CopyItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/copyitem-operation"
+    },
+    {
+      "operation": "DeleteItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/deleteitem-operation"
+    },
+    {
+      "operation": "FindItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/finditem-operation"
+    },
+    {
+      "operation": "GetItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getitem-operation"
+    },
+    {
+      "operation": "MarkAllItemsAsRead",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/markallitemsasread-operation"
+    },
+    {
+      "operation": "MoveItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/moveitem-operation"
+    },
+    {
+      "operation": "SendItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/senditem-operation"
+    },
+    {
+      "operation": "UpdateItem",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/updateitem-operation"
+    },
+    {
+      "operation": "CreateFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createfolder-operation"
+    },
+    {
+      "operation": "CreateFolderPath",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createfolderpath-operation"
+    },
+    {
+      "operation": "CreateManagedFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createmanagedfolder-operation"
+    },
+    {
+      "operation": "CopyFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/copyfolder-operation"
+    },
+    {
+      "operation": "DeleteFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/deletefolder-operation"
+    },
+    {
+      "operation": "EmptyFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/emptyfolder-operation"
+    },
+    {
+      "operation": "FindFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/findfolder-operation"
+    },
+    {
+      "operation": "GetFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getfolder-operation"
+    },
+    {
+      "operation": "MoveFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/movefolder-operation"
+    },
+    {
+      "operation": "UpdateFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/updatefolder-operation"
+    },
+    {
+      "operation": "CreateAttachment",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createattachment-operation"
+    },
+    {
+      "operation": "GetAttachment",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getattachment-operation"
+    },
+    {
+      "operation": "DeleteAttachment",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/deleteattachment-operation"
+    },
+    {
+      "operation": "GetReminders",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getreminders-operation"
+    },
+    {
+      "operation": "PerformReminderAction",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/performreminderaction-operation"
+    },
+    {
+      "operation": "ApplyConversationAction",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/applyconversationaction-operation"
+    },
+    {
+      "operation": "FindConversation",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/findconversation-operation"
+    },
+    {
+      "operation": "GetConversationItems",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getconversationitems-operation"
+    },
+    {
+      "operation": "ConvertId",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/convertid-operation"
+    },
+    {
+      "operation": "ExpandDL",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/expanddl-operation"
+    },
+    {
+      "operation": "GetUserPhoto",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getuserphoto-operation"
+    },
+    {
+      "operation": "MarkAsJunk",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/markasjunk-operation"
+    },
+    {
+      "operation": "ResolveNames",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/resolvenames-operation"
+    },
+    {
+      "operation": "GetPasswordExpirationDate",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getpasswordexpirationdate-operation"
+    },
+    {
+      "operation": "GetUserAvailability",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getuseravailability-operation"
+    },
+    {
+      "operation": "GetRoomLists",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getroomlists-operation"
+    },
+    {
+      "operation": "GetRooms",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getrooms-operation"
+    },
+    {
+      "operation": "GetUserOofSettings",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getuseroofsettings-operation"
+    },
+    {
+      "operation": "SetUserOofSettings",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/setuseroofsettings-operation"
+    },
+    {
+      "operation": "UploadItems",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/uploaditems-operation"
+    },
+    {
+      "operation": "ExportItems",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/exportitems-operation"
+    },
+    {
+      "operation": "AddDelegate",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/adddelegate-operation"
+    },
+    {
+      "operation": "GetDelegate",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getdelegate-operation"
+    },
+    {
+      "operation": "UpdateDelegate",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/updatedelegate-operation"
+    },
+    {
+      "operation": "RemoveDelegate",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/removedelegate-operation"
+    },
+    {
+      "operation": "GetInboxRules",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getinboxrules-operation"
+    },
+    {
+      "operation": "UpdateInboxRules",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/updateinboxrules-operation"
+    },
+    {
+      "operation": "DisableApp",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/disableapp-operation"
+    },
+    {
+      "operation": "GetAppManifests",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getappmanifests-operation"
+    },
+    {
+      "operation": "GetAppMarketplaceUrl",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getappmarketplaceurl-operation"
+    },
+    {
+      "operation": "GetClientAccessToken",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getclientaccesstoken-operation"
+    },
+    {
+      "operation": "InstallApp",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/installapp-operation"
+    },
+    {
+      "operation": "UninstallApp",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/uninstallapp-operation"
+    },
+    {
+      "operation": "GetMailTips",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getmailtips-operation"
+    },
+    {
+      "operation": "FindMessageTrackingReport",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/findmessagetrackingreport-operation"
+    },
+    {
+      "operation": "GetMessageTrackingReport",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getmessagetrackingreport-operation"
+    },
+    {
+      "operation": "GetEvents",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getevents-operation"
+    },
+    {
+      "operation": "GetStreamingEvents",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getstreamingevents-operation"
+    },
+    {
+      "operation": "Subscribe",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/subscribe-operation"
+    },
+    {
+      "operation": "Unsubscribe",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/unsubscribe-operation"
+    },
+    {
+      "operation": "FindPeople",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/findpeople-operation"
+    },
+    {
+      "operation": "GetPersona",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getpersona-operation"
+    },
+    {
+      "operation": "GetUserRetentionPolicyTags",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getuserretentionpolicytags-operation"
+    },
+    {
+      "operation": "GetServiceConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getserviceconfiguration-operation"
+    },
+    {
+      "operation": "GetSharingFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getsharingfolder-operation"
+    },
+    {
+      "operation": "GetSharingMetadata",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getsharingmetadata-operation"
+    },
+    {
+      "operation": "RefreshSharingFolder",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/refreshsharingfolder-operation"
+    },
+    {
+      "operation": "SyncFolderHierarchy",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/syncfolderhierarchy-operation"
+    },
+    {
+      "operation": "SyncFolderItems",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/syncfolderitems-operation"
+    },
+    {
+      "operation": "GetServerTimeZones",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getservertimezones-operation"
+    },
+    {
+      "operation": "DisconnectPhoneCall",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/disconnectphonecall-operation"
+    },
+    {
+      "operation": "GetPhoneCallInformation",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getphonecallinformation-operation"
+    },
+    {
+      "operation": "PlayOnPhone",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/playonphone-operation-ews"
+    },
+    {
+      "operation": "AddNewImContactToGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/addnewimcontacttogroup-operation"
+    },
+    {
+      "operation": "AddImContactToGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/addimcontacttogroup-operation"
+    },
+    {
+      "operation": "AddImGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/addimgroup-operation"
+    },
+    {
+      "operation": "AddNewTelUriContactToGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/addnewteluricontacttogroup-operation"
+    },
+    {
+      "operation": "AddDistributionGroupToImList",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/adddistributiongrouptoimlist-operation"
+    },
+    {
+      "operation": "GetImItemList",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getimitemlist-operation"
+    },
+    {
+      "operation": "GetImItems",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getimitems-operation"
+    },
+    {
+      "operation": "RemoveContactFromImList",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/removecontactfromimlist-operation"
+    },
+    {
+      "operation": "RemoveImContactFromGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/removeimcontactfromgroup-operation"
+    },
+    {
+      "operation": "RemoveDistributionGroupFromImList",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/removedistributiongroupfromimlist-operation"
+    },
+    {
+      "operation": "RemoveImGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/removeimgroup-operation"
+    },
+    {
+      "operation": "SetImGroup",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/setimgroup-operation"
+    },
+    {
+      "operation": "CreateUserConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/createuserconfiguration-operation"
+    },
+    {
+      "operation": "DeleteUserConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/deleteuserconfiguration-operation"
+    },
+    {
+      "operation": "GetUserConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/getuserconfiguration-operation"
+    },
+    {
+      "operation": "UpdateUserConfiguration",
+      "documentation": "https://learn.microsoft.com/en-us/exchange/client-developer/web-service-reference/updateuserconfiguration-operation"
+    }
+  ]
+}
